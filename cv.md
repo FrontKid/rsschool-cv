@@ -63,3 +63,7 @@ Faculty: Navigation faculty
 + Ukrainian - Native
 + Russian - Native
 + English - intermidiate
+
+## Experience:
+- __[portfolio](https://github.com/FrontKid/portfolio) [react, typescript, scss, redux]__
+- __[pizza](https://github.com/FrontKid/Pizza) [react, typescript, scss, redux]__
