@@ -35,17 +35,17 @@ Your task is to return the first longest string consisting of k consecutive
 strings taken in the array.
 
     const longestConsec = (strarr, k) => {
-      let result = '';
-      for (let i = 0; i <= strarr.length - k; i++) {
-        let str = '';
-        for (let j = i; j < i + k; j++) {
-          str += strarr[j];
-        }
-        if (result.length < str.length) {
-        result = str;
-        }
-      }
-      return result;
+    let result = '';
+    for (let i = 0; i <= strarr.length - k; i++) {
+    let str = '';
+    for (let j = i; j < i + k; j++) {
+    str += strarr[j];
+    }
+    if (result.length < str.length) {
+    result = str;
+    }
+    }
+    return result;
     }
 
 
