@@ -60,8 +60,6 @@ Educational institution: Odessa Maritime University
 Faculty: Navigation faculty
 
 ## Languages:
-+ Ukrainian - Native
-+ Russian - Native
 + English - intermidiate
 
 ## Experience:
