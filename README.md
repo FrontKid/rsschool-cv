@@ -1,1 +1,1 @@
-https://FrontKid.github.io/rsschool-cv/cv
+https://FrontKid.github.io/rsschool-cv/

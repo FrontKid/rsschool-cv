@@ -1,0 +1,89 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.subtitle {
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.introduce {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.introduce__contacts-box {
+  margin: 24px 0;
+  padding: 24px 0;
+  position: relative;
+}
+.introduce__contacts-box::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #e1e4e8;
+}
+.introduce__contacts-box::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #e1e4e8;
+}
+
+.introduce__contacts-title {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.introduce__contacts-phone,
+.introduce__contacts-email,
+.introduce__contacts-telegram {
+  font-weight: 600;
+}
+.introduce__contacts-phone span,
+.introduce__contacts-email span,
+.introduce__contacts-telegram span {
+  padding-right: 5px;
+}
+.introduce__contacts-phone a,
+.introduce__contacts-email a,
+.introduce__contacts-telegram a {
+  font-weight: 400;
+  border-bottom: 1px solid #969696;
+}
